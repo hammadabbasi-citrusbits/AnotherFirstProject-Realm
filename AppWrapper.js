@@ -57,7 +57,9 @@ function NotificationSetter() {
       <FlatList
         data={data}
         keyExtractor={item => item._id.toString()}
-        renderItem={({item}) => <Text>{item.value}</Text>}
+        renderItem={({item}) => (
+          <Text style={{color: 'red'}}>{item.value}</Text>
+        )}
       />
     </View>
   );
