@@ -10,11 +10,18 @@
     "test": "jest"
   },
   "dependencies": {
+    "@realm/babel-plugin": "^0.2.0",
+    "@realm/react": "^0.7.0",
     "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react-native": "0.74.1",
+    "react-native-polyfill-globals": "^3.1.0",
+    "realm": "^12.9.0",
+    "text-encoding": "^0.7.0",
+    "web-streams-polyfill": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@babel/plugin-proposal-async-generator-functions": "^7.20.7",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
     "@react-native/babel-preset": "0.74.83",
